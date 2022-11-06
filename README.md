@@ -75,6 +75,26 @@ echo -e "\033[0;32mhttp://$(wget -qO- eth0.me):8888/\033[0m"
 + docker restart tenderduty
 
 `logs`
-+ docker logs -f --tail 20 tenderduty
 
+    docker logs -f --tail 20 tenderduty
+
+`Check docker and containers`
+
+    docker ps -a
+
+`Images docker`
+
+    docker images
+
+`Delete image`
+
+    docker rmi <id>
+
+`Delete container`
+
+    docker rm cow <id>
+
+`Delete running container`
+
+    docker rm -f cow <id>
 
