@@ -24,7 +24,7 @@ docker --version
 
 ## Install tenderduty
 ```bash
-tmux new-session -S tenderduty
+tmux new-session -s tenderduty
 mkdir tenderduty && cd tenderduty
 docker run --rm ghcr.io/blockpane/tenderduty:latest -example-config >config.yml
 ```
